@@ -1,11 +1,13 @@
 html{
+    box-sizing: border-box;
+    font-size: 62.5%;
     scroll-behavior: smooth;
 }
 
 *,
 *::after,
 *::before{
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body{
@@ -19,4 +21,5 @@ a{
 
 img{
     max-width: 100%;
+    height: auto;
 }
